@@ -141,7 +141,10 @@
         .menu1>li:nth-child(1)>a::after {
             content: "▾";
         }
-
+        .nb::after{
+            content: "▾";
+            float: right;
+        }
         .menu1>li:nth-child(1):hover>a {
             padding-bottom: 25px;
             background-color: #F2F2F2;
@@ -236,7 +239,7 @@
                     <a href="#" class="active"><i class="fas fa-star "></i>About</a>
                     <ul class="submenu R_p0">
                         <li>
-                            <a href="#" class="nb"><i class="fas fa-bullhorn"></i>News <i class="fas fa-chevron-down R_right"></i></a>
+                            <a href="#" class="nb"><i class="fas fa-bullhorn"></i>News </a>
                                 <ul class="R_p0 submenu submenu2  R_posiabso R_t0  ">
                                     <li>
                                         <a href="#" class="R_tbr1"><i class="fas fa-check"></i>Company</a>
@@ -245,7 +248,7 @@
                                     </li>
                                 </ul>
                             <a href="#"><i class="fas fa-globe-asia"></i>Mission</a>
-                            <a href="#"><i class="fas fa-users"></i>Our Team<i class="fas fa-chevron-down R_right"></i></a>
+                            <a href="#" class="nb"><i class="fas fa-users"></i>Our Team</a>
                             <a href="#"><i class="fas fa-trophy"></i>Rewards</a>
                             <a href="#" class="R_bbr R_bb"><i class="fas fa-certificate"></i>Certificates</a>
                         </li>
